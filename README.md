@@ -40,3 +40,13 @@ We have to individually add files to Git by entering in terminal `git add name_o
 Now we see the line `Changes to be committed:`. So far all we've done is added a file, which is like telling Git, yes please keep track of these specific changes. In order to actually save the changes, we have to commit them. A commit is like taking a snapshot of your entire codebase at a moment in time. Commiting often is a really great workflow because you can always rewind in time to different snapshots if you ever break your down the road.
 
 To commit, we type `git commit -m "enter a message here`. The `-m` stands for message, which is what gets passed in quotation marks. This is a commit message. A commit message is a description of the work that you've done that accompanies the snapshot. Commit messages are really helpful because future you can look at the messages and understand exactly what work you did on your code.
+
+Once you enter your commit, you should see `On branch master Your branch is up-to-date with 'origin/master'.` This means your changes have been succesfully committed and a snapshot of your code was taken.
+
+So now it's time to put your code on Github. We have to push the code up there with `git push`. Which actually sends the code to Github. Now, if you go to Github in the browser to this repository and refresh the page, you should see `learning.md` up there!
+
+So heres's a summary of that workflow:
+
+* git add file_name
+* git commit -m "commit message"
+* git push
