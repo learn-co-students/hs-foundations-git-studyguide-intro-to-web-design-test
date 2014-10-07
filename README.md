@@ -33,4 +33,10 @@ Now, in terminal in the directory of this lesson, enter `git status`. You should
 
 Git is telling us that we have added a file to our directory, but it also says our changes haven't been tracked yet. Git is smart enough to know we've added a file, but this file and the contents of the file aren't yet set to head up to the cloud.
 
-We have to individually add files to Git by entering in terminal `git add name_of_file`. In this case, we'd type `git add learning.md`.
+We have to individually add files to Git by entering in terminal `git add name_of_file`. In this case, we'd type `git add learning.md`. We don't get any feedback from git, which means our file was successfully added. If we type `git status` again, we see:
+
+![IMAGE](git_add.png)
+
+Now we see the line `Changes to be committed:`. So far all we've done is added a file, which is like telling Git, yes please keep track of these specific changes. In order to actually save the changes, we have to commit them. A commit is like taking a snapshot of your entire codebase at a moment in time. Commiting often is a really great workflow because you can always rewind in time to different snapshots if you ever break your down the road.
+
+To commit, we type `git commit -m "enter a message here`. The `-m` stands for message, which is what gets passed in quotation marks. This is a commit message. A commit message is a description of the work that you've done that accompanies the snapshot. Commit messages are really helpful because future you can look at the messages and understand exactly what work you did on your code.
