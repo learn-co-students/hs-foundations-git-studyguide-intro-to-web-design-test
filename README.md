@@ -5,14 +5,11 @@ type: catch-up
 ---
 
 ##Putting Code Online
-
 So you do a lab, and then you spill water all over your laptop and fry it. It's the modern day version of "my dog ate my homework". Good thing the tech industry has thought of that. 
 
 The real power of github comes in the form of version control and hosting your code in the cloud. Version control is the ability to save snapshots of your work over time so that you can go back to different snapshots if you mess something up. We can push these snapshots (called commits) to github so that they can be accessed from anywhere, allowing for collaboration with other developers.
 
-
 ###What is GIT?
-
 First of all, it’s important to note that git and github aren’t the same thing. Github is where we save our code in the cloud, while git is a version control system that lives on your computer. You use git from the command line, like when you cloned a lab to your computer using `git clone`
 
 
@@ -20,7 +17,6 @@ First of all, it’s important to note that git and github aren’t the same thi
 We use the Git in order to host our code on Github.
 
 Let's say you work on a lab and finish half of it, but then you have to go home for the day. But there's a risk you could drop your laptop in the Hudson river on the way home and you'd lose all your work. So besides emailing it to yourself, which is incredibly tedious, how could you easily save your code?
-
 
 The best way to save your work it to put it on Github in a repository. So how do we get it there?
 
